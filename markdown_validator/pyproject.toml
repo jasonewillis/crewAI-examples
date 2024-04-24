@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["ITLackey <itlackey@gmail.com>"]
 
-[tool.poetry.dependencies]
+[tool.poetry.dependencies] 
 python = ">=3.10.0,<3.12"
 crewai = "^0.11.0"
 python-dotenv = "1.0.0"
