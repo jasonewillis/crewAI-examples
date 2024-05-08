@@ -1,0 +1,15 @@
+FROM llama3
+
+# Note: Running first time, need to chmod +x ./setup/createLlama3ModelFile.sh
+# Set Parameters
+
+PARAMETER temperature 0.8
+PARAMETER stop Result
+
+# Sets a custom system message to speify the behavior of
+# the chat assistant 
+
+# Leaving it blank for now
+
+SYSTEM """"""
+
